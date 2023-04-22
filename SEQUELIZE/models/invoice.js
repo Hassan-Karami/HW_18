@@ -3,7 +3,7 @@ const { DataTypes } = require("sequelize");
 const Invoice = connection.sequelize.define(
   "Invoice",
   {
-    food_name: {
+    tracking_code: {
       type: DataTypes.STRING,
       allowNull: false,
       unique:true,
